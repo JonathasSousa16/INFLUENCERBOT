@@ -106,8 +106,8 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `OIIÊ @${num.split('@')[0]}\ SEJAM BEM-VINDX AO GRP *${mdata.subject}* ! EU ME CHAMO ARTHUR, MUITO PRAZER 🤖!\nLOGO ABAIXO TEM A MSG DOS ADM's PARA VC, LEIA COM ATENÇÃO PRFVR... A MSG DELES É UM POUCO EXAGERADA KKKK, MAS CONTÉM TDS AS INFORMAÇÕES IMPORTANTES DO GRP E TBM TEM ALGUMAS DICAS MTO BOAS 😁!\nESPERO QUE A GENTE SE FALE NOVAMENTE... TCHAU 👋!!\n\n
-*_MENSAGEM DOS ADM's:_*
+				teks = `OIIÊ @${num.split('@')[0]}\ SEJA BEM-VINDX AO GRP *${mdata.subject}* ! EU ME CHAMO INFLUENCER BOT, MUITO PRAZER 📱🤖!\n\nLOGO ABAIXO TEM A MSG DOS ADM's PARA VC, LEIA COM ATENÇÃO PRFVR... A MSG DELES É UM POUCO EXAGERADA KKKK, MAS CONTÉM TDS AS INFORMAÇÕES IMPORTANTES DO GRP E TBM TEM ALGUMAS DICAS MTO BOAS 😁!\nESPERO QUE A GENTE SE FALE NOVAMENTE... TCHAU 👋!!\n\n\n
+*_MENSAGEM DOS ADMs:_*
 
 Olá, seja bem-vindX ao Grupo... É muito bom ter você no nosso time!
 
@@ -164,39 +164,7 @@ E O QUE SERIA ESSA TAL META?
 - Não sigam nem mandem msg muito rápido. *Qualquer ação repetida em curto intervalo de tempo é motivo para o Instagram te bloquear!*
 
 
-*OUTRAS INFORMAÇÕES:*
-
-Não removemos ninguém à toa!
-
-Ninguém é removido do projeto, por estar seguindo as regras 😒...
-
-*❗Motivos de REMOÇÃO:❗* 
-
-🔹 Não entregar as metas diárias!
-
-🔹 Deixar de seguir a página e quem a página segue (RELEMBRANDO QUE A PÁGINA ESTÁ SEGUINDO OS ADM's... ENTT SE VC DEIXAR DE SEGUIR QM A PÁGINA SEGUE, TBM VAI DEIXAR DE SEGUI-LÓS E SERÁ REMOVIDO).
-
-🔹 Participar de outros projetos para ganhar seguidores.
-
-🔹 Desrespeitar os colegas e ADMs.
-
-🔹 ADULTERAR a msg que é enviada no fake. Ex.: Incluir seu @.
-
-🔹 ADULTERAR a bio do perfil fake. Ex.: incluir seu @.
-
-🔹 FAZER QUALQUER EDIÇÃO nos prints das metas!
-- Mudar o número;
-- Cortar print; etc. 
-
-🔹 Participar de dois grupos do projeto, tentando enganar os ADMs do recrutamento e dos grupos.
-
-Ou seja, tudo que já cansamos de falar!
-
-Quando vcs são removidos, a gente bloqueia vcs pra podermos lembrar quem saiu pq não cumpriu as regras.
-
-Mas vcs podem voltar no recrutamento, desde que tenha sido removidos sem fazer sacanagem com o projeto! Mas quem fica mandando msgs no PV para membros do grupo, fica xingando ADMs, ou outras coisas do tipo, vão parar na lista negra do projeto!
-
-Então se dps que forem removidos, ainda quiserem entrar no projeto não fiquem atormentando os membros do grupo pq vcs vão para lista negra e não poderão mais voltar.
+ATT.: Equipe administrativa.
 `
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
@@ -207,7 +175,7 @@ Então se dps que forem removidos, ainda quiserem entrar no projeto não fiquem 
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Tchau ☹️... @${num.split('@')[0]} saiu e nem se despediu 😒`
+				teks = `@${num.split('@')[0]} saiu e nem se despediu 😒\n\nTchau ☹️👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -252,7 +220,7 @@ Então se dps que forem removidos, ainda quiserem entrar no projeto não fiquem 
 					group: '❬❗❭ ESTE COMANDO SÓ PODE SER EXECUTADO EM GRUPOS ❬❗❭ ',
 					ownerG: '❬❗❭ ESTE COMANDO É EXCLUSIVO PARA O PROPRIETÁRIO DO BOT ❬❗❭ ',
 					ownerB: '❬❗❭ COMANDO EXCLUSIVO PARA O PROPRIETÁRIO DO BOT ❬❗❭  ',
-					admin: ' ❬❗❭ ESTE COMANDO PODE SER USADO SOMENTE POR ADM's ❬❗❭ ',
+					admin: ' ❬❗❭ ESTE COMANDO PODE SER USADO SOMENTE POR ADMs ❬❗❭ ',
 					Badmin: '❬❗❭ O BOT PRECISA SER ADM 😄 ❬❗❭'
 				}
 			}
